@@ -37,6 +37,7 @@ public class ItemsController {
     @RequestMapping("/save")
     public String save(Items items){
         itemsService.save(items);
+        System.out.println(items);
 
         return "redirect:/items/list";
 
