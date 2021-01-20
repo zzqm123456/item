@@ -1,0 +1,3 @@
+com\itheima\service\impl\ItemsServiceImpl.class
+com\itheima\aspect\MyAspect.class
+com\itheima\service\ItemsService.class
